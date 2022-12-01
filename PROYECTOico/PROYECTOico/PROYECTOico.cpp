@@ -12,4 +12,4 @@ int main() {
 
 	int c;
 	int f;
-	int factorial;
+	
