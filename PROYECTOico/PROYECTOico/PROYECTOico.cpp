@@ -29,3 +29,18 @@ int main() {
 	else if (aumento == 0) {
 		return 1;
 	}
+
+	while (limInicial <= limFinal + aumento)
+	{
+
+		for (c = 0; c <= conteo; c++)
+		{
+			factorial = 1;
+
+			for (f = 1; f <= c; f++)
+			{
+				factorial = factorial * f;
+			}
+
+			resulE = resulE + (pow(limInicial, c)) / factorial;
+		}
