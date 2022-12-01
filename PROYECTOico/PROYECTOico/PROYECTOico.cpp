@@ -48,3 +48,8 @@ int main() {
 		resulExp = exp(limInicial);
 
 		printf("%f %f %f\n", limInicial, resulE, resulExp);
+		
+		limInicial = limInicial + aumento;
+		resulE = 0;
+	}
+}
