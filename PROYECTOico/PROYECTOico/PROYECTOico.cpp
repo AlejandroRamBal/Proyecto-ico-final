@@ -18,4 +18,4 @@ int main() {
 	scanf_s("%lf", &limFinal);
 	scanf_s("%lf", &aumento);
 
-	int conteo = (limFinal - limInicial) / aumento;
+	
