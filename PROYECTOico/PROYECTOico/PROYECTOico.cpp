@@ -9,3 +9,7 @@ int main() {
 
 	double resulExp;
 	double resulE = 0;
+
+	int c;
+	int f;
+	int factorial;
