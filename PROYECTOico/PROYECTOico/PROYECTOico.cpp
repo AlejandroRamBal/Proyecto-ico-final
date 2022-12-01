@@ -44,3 +44,7 @@ int main() {
 
 			resulE = resulE + (pow(limInicial, c)) / factorial;
 		}
+
+		resulExp = exp(limInicial);
+
+		printf("%f %f %f\n", limInicial, resulE, resulExp);
