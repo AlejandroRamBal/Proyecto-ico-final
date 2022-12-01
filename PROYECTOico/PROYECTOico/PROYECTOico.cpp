@@ -19,3 +19,13 @@ int main() {
 	scanf_s("%lf", &aumento);
 
 	int conteo = (limFinal - limInicial) / aumento;
+
+	if (limInicial == 0 && limFinal == 0) {
+		resulExp = 1;
+		resulE = 1;
+		printf("%f %f %f", limInicial, resulE, resulExp);
+		return 0;
+	}
+	else if (aumento == 0) {
+		return 1;
+	}
